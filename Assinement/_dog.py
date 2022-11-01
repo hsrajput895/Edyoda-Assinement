@@ -5,9 +5,10 @@ class Dog:
       self.__color=color
 
    def discription(self):
-       print(self.__name "\n" self.__age)
+       print(self.__name ,self.__age)
+
    def get_info(self):
        print(self.__color)
-_dog=Dog("max",12,"black")
-_dog.discription()
-_dog.get_info()
+# _dog=Dog("max",12,"black")
+# _dog.discription()
+# _dog.get_info()
